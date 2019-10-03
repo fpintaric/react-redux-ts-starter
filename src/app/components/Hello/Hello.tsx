@@ -2,6 +2,7 @@ import * as React from 'react';
 import { AppState } from '../../store/store';
 import { HelloState } from './HelloTypes';
 import { connect } from 'react-redux';
+import './Hello.css';
 
 const Hello: React.FunctionComponent<HelloState> = ({
   compiler,
